@@ -6,21 +6,37 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
-			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+			// The blog title now reflects your new brand
+			title: 'Josiah\'s Open Source School (JOSS)', 
+			social: [{ icon: 'github', label: 'GitHub', href: 'YOUR_GITHUB_REPO_URL' }], // IMPORTANT: Update this URL to your actual GitHub repo
+
+			// 👇 This is the updated sidebar configuration 👇
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
-					],
+					label: 'Start Here',
+					link: '/', // Links directly to your index.mdx landing page
 				},
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					label: '1. Foundations',
+					// autogenerate tells Starlight to find all files in the 'foundations' folder
+					autogenerate: { directory: 'foundations' }, 
+				},
+				{
+					label: '2. Containers',
+					autogenerate: { directory: 'containers' },
+				},
+				// Add the remaining sections for future content
+				{
+					label: '3. CI/CD',
+					autogenerate: { directory: 'cicd' },
+				},
+				{
+					label: '4. Kubernetes',
+					autogenerate: { directory: 'kubernetes' },
 				},
 			],
+			// 👆 End of updated sidebar configuration 👆
+
 		}),
 	],
 });
