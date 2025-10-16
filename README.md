@@ -2,10 +2,13 @@
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Actions CI Status](https://github.com/josiah-mbao/cloud-tutorials/workflows/Docker%20App%20CI%20Pipeline/badge.svg)](https://github.com/josiah-mbao/cloud-tutorials/actions) 
+
 **Welcome to JOSS, the living documentation for my journey in Systems Engineering, DevOps, and AI.**
 
 This repository hosts a collection of practical, hands-on tutorials designed to help you bridge the gap between writing code and shipping it reliably to production. Built by a 4th-year Software Engineering student and GDSC Cloud Lead with roots in Zambia and based in Kenya, this resource focuses on actionable solutions for real-world development challenges in the African tech space.
+
+<img width="1406" height="811" alt="cloud-tutorials" src="https://github.com/user-attachments/assets/3bcd9e97-f4c3-4987-b314-1faeb5d9f253" />
+
 
 ## 🚀 Visit the Live Documentation
 
