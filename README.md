@@ -1,49 +1,56 @@
-# Starlight Starter Kit: Basics
+# 🇿🇲 Josiah's Open Source School (JOSS): Cloud & DevOps Tutorials 🇰🇪
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Actions CI Status](https://github.com/josiah-mbao/cloud-tutorials/workflows/Docker%20App%20CI%20Pipeline/badge.svg)](https://github.com/josiah-mbao/cloud-tutorials/actions) 
+**Welcome to JOSS, the living documentation for my journey in Systems Engineering, DevOps, and AI.**
 
-```
-npm create astro@latest -- --template starlight
-```
+This repository hosts a collection of practical, hands-on tutorials designed to help you bridge the gap between writing code and shipping it reliably to production. Built by a 4th-year Software Engineering student and GDSC Cloud Lead with roots in Zambia and based in Kenya, this resource focuses on actionable solutions for real-world development challenges in the African tech space.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Visit the Live Documentation
 
-## 🚀 Project Structure
+Explore the full, interactive tutorials, complete with code snippets, diagrams, and clear, step-by-step instructions:
 
-Inside of your Astro + Starlight project, you'll see the following folders and files:
+➡️ **[START LEARNING NOW: View JOSS Live at your-live-url.com](YOUR_LIVE_URL_HERE)**
+## 📚 What You Will Find
 
-```
-.
-├── public/
-├── src/
-│   ├── assets/
-│   ├── content/
-│   │   └── docs/
-│   └── content.config.ts
-├── astro.config.mjs
-├── package.json
-└── tsconfig.json
-```
+The documentation is structured to take you from foundational concepts to advanced container orchestration:
 
-Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
+| Path | Focus | Key Topics & Project Alignment |
+| :--- | :--- | :--- |
+| **Foundations** | DevOps culture, Cloud basics, Linux fundamentals. | Essential bedrock skills. |
+| **Containers** | Packaging and isolating applications for consistency. | **Docker** & **Docker Compose** (Containerizing simple web services). |
+| **CI/CD** | Automating the software release pipeline. | **GitHub Actions** & **Azure Pipelines** (Continuous Integration for your MLOps projects). |
+| **Kubernetes** | Orchestrating containers at scale and handling high concurrency. | **Pods, Services, & Helm** (Scaling the **Go Reverse Proxy** project). |
 
-Images can be added to `src/assets/` and embedded in Markdown with a relative link.
+## 💡 Why This Project?
 
-Static assets, like favicons, can be placed in the `public/` directory.
+This documentation serves as a direct technical portfolio:
+* **Proof of Concept:** Every guide is based on tools used in real-world projects like **Ona Vision** (MLOps) and the high-performance **Go Reverse Proxy**.
+* **GDSC Resource:** It is the official teaching material for my campus's Cloud & DevOps initiatives, fostering practical skills in the local tech community.
+* **Demonstration of Mastery:** The entire site is deployed using modern **Astro** and is structured according to the **Diátaxis** documentation framework, showcasing high standards in both engineering and technical communication.
 
-## 🧞 Commands
+***
 
-All commands are run from the root of the project, from a terminal:
+## ⚙️ Technical Contribution (For Developers)
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+This documentation site is built with **Astro Starlight**. We welcome contributions, especially if you find a typo or have a better way to explain a concept!
 
-## 👀 Want to learn more?
 
-Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
+### 💻 Local Development Commands
+
+To run the project locally and contribute to the documentation:
+
+| Command | Action |
+| :--- | :--- |
+| `npm install` | Installs dependencies |
+| `npm run dev` | **Starts local dev server at `localhost:4321`** (Recommended for writing) |
+| `npm run build` | Builds your production site to `./dist/` |
+| `npm run preview` | Preview your build locally, before deploying |
+
+## 🔗 Connect With Me
+
+* **GitHub:** [josiah-mbao](https://github.com/josiah-mbao)
+* **LinkedIn:** [in/josiah-mbao](https://www.linkedin.com/in/josiah-mbao)
+
+***
