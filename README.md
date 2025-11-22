@@ -1,59 +1,86 @@
-# 🇿🇲 Josiah's Open Source School (JOSS): Cloud & DevOps Tutorials 🇰🇪
+# Josiah's Open Source School (JOSS) - Cloud Tutorials
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**Welcome to JOSS, the living documentation for my journey in Systems Engineering, DevOps, and AI.**
+**🇿🇲🇰🇪 Building in the Cloud: Your Journey from Dev to Ops**
 
-This repository hosts a collection of practical, hands-on tutorials designed to help you bridge the gap between writing code and shipping it reliably to production. Built by a 4th-year Software Engineering student and GDSC Cloud Lead with roots in Zambia and based in Kenya, this resource focuses on actionable solutions for real-world development challenges in the African tech space.
+A comprehensive collection of hands-on tutorials and guides for DevOps, MLOps, Containers, and CI/CD - written by a 4th-year Software Engineering student with roots in Zambia and based in Kenya.
 
-<img width="1406" height="811" alt="cloud-tutorials" src="https://github.com/user-attachments/assets/3bcd9e97-f4c3-4987-b314-1faeb5d9f253" />
+## 📚 What You'll Learn
 
+This documentation site covers:
 
-## 🚀 Visit the Live Documentation
+- **Foundations**: DevOps culture, cloud computing, and Linux essentials
+- **Containers** (Docker): Building, deploying, and orchestrating applications
+- **CI/CD**: GitHub Actions, Azure Pipelines, and automation workflows
+- **MLOps Fundamentals**: AI model deployment, monitoring, and scalability
+- **Systems Programming**: High-performance services with Go and Rust
 
-Explore the full, interactive tutorials, complete with code snippets, diagrams, and clear, step-by-step instructions:
+Each tutorial draws from real projects like **Ona Vision** (YOLOv8 computer vision), **FraudFlow** (credit card fraud detection), Go reverse proxy systems, and Django API performance optimization.
 
-➡️ **[START LEARNING NOW: View JOSS Live at your-live-url.com](YOUR_LIVE_URL_HERE)**
-## 📚 What You Will Find
+## 🚀 Quick Start
 
-The documentation is structured to take you from foundational concepts to advanced container orchestration:
+### Prerequisites
 
-| Path | Focus | Key Topics & Project Alignment |
-| :--- | :--- | :--- |
-| **Foundations** | DevOps culture, Cloud basics, Linux fundamentals. | Essential bedrock skills. |
-| **Containers** | Packaging and isolating applications for consistency. | **Docker** & **Docker Compose** (Containerizing simple web services). |
-| **CI/CD** | Automating the software release pipeline. | **GitHub Actions** & **Azure Pipelines** (Continuous Integration for your MLOps projects). |
-| **Kubernetes** | Orchestrating containers at scale and handling high concurrency. | **Pods, Services, & Helm** (Scaling the **Go Reverse Proxy** project). |
+- Node.js (v18 or higher)
+- npm or yarn
 
-## 💡 Why This Project?
+### Installation
 
-This documentation serves as a direct technical portfolio:
-* **Proof of Concept:** Every guide is based on tools used in real-world projects like **Ona Vision** (MLOps) and the high-performance **Go Reverse Proxy**.
-* **GDSC Resource:** It is the official teaching material for my campus's Cloud & DevOps initiatives, fostering practical skills in the local tech community.
-* **Demonstration of Mastery:** The entire site is deployed using modern **Astro** and is structured according to the **Diátaxis** documentation framework, showcasing high standards in both engineering and technical communication.
+```bash
+# Clone the repository
+git clone https://github.com/josiah-mbao/cloud-tutorials.git
+cd cloud-tutorials
 
-***
+# Install dependencies
+npm install
 
-## ⚙️ Technical Contribution (For Developers)
+# Start development server
+npm run dev
+```
 
-This documentation site is built with **Astro Starlight**. We welcome contributions, especially if you find a typo or have a better way to explain a concept!
+Visit `http://localhost:4321` to view the site.
 
+### Project Structure
 
-### 💻 Local Development Commands
+```
+.
+├── src/
+│   ├── content/docs/          # Documentation pages
+│   │   ├── foundations/       # DevOps fundamentals
+│   │   ├── containers/        # Docker tutorials
+│   │   ├── cicd/              # CI/CD pipelines
+│   │   └── kubernetes/        # K8s guides
+│   ├── assets/                # Images and media
+│   └── content.config.ts      # Content schema
+├── public/                    # Static assets
+├── astro.config.mjs           # Astro configuration
+└── package.json               # Dependencies
+```
 
-To run the project locally and contribute to the documentation:
+## 📖 Available Scripts
 
-| Command | Action |
-| :--- | :--- |
-| `npm install` | Installs dependencies |
-| `npm run dev` | **Starts local dev server at `localhost:4321`** (Recommended for writing) |
-| `npm run build` | Builds your production site to `./dist/` |
-| `npm run preview` | Preview your build locally, before deploying |
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 
-## 🔗 Connect With Me
+## 🤝 Contributing
 
-* **GitHub:** [josiah-mbao](https://github.com/josiah-mbao)
-* **LinkedIn:** [in/josiah-mbao](https://www.linkedin.com/in/josiah-mbao)
+This is a personal project focused on practical DevOps education. While PRs are welcome for corrections, the content roadmap is driven by the author's experiences and GDSC leadership activities.
 
-***
+## 📧 Contact
+
+- **Author**: Josiah Mbao
+- **GitHub**: [josiah-mbao](https://github.com/josiah-mbao)
+- **LinkedIn**: Connect for opportunities
+
+## 🙏 Acknowledgments
+
+Built with [Astro](https://astro.build/) and [Starlight](https://starlight.astro.build/). Inspired by the vibrant African tech community and the belief that practical, accessible education can bridge the DevOps knowledge gap.
+
+---
+
+*"Do Hard Things"* - The guiding principle behind every tutorial.

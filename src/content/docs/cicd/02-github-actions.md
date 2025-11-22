@@ -3,7 +3,6 @@ title: GitHub Actions Tutorial - Automating Your First CI Pipeline
 description: A hands-on tutorial to set up a GitHub Actions workflow to automatically build, test, and containerize our application from the Docker Basics guide.
 ---
 
-# 2. GitHub Actions Tutorial: Automating Your First CI Pipeline 🤖
 
 **GitHub Actions** is a free, powerful tool that lives inside your GitHub repository. It allows us to define automated workflows using simple YAML files. These workflows automatically run the **CI** steps—checking out code, running tests, and building the container—every time we make a change.
 

@@ -3,9 +3,7 @@ title: Linux Basics - The Core OS for Cloud and DevOps
 description: A practical guide to essential Linux commands, file permissions, and system navigation—the fundamental skills needed to manage servers and containers.
 ---
 
-# 3. Linux Basics: The Core OS for Cloud and DevOps
 
-If cloud computing is the stadium, **Linux** is the turf. Nearly every major cloud provider (Azure, AWS, GCP) runs their services on Linux under the hood, and virtually all containers and Kubernetes nodes are based on a Linux distribution. As a DevOps engineer, you'll be spending a lot of time in the **Terminal**, so getting comfortable with Bash is a non-negotiable skill.
 
 It's all about control. Unlike a desktop OS, learning Linux gives you the tools to efficiently manage infrastructure, deploy code, and perform crucial diagnostics—skills that are necessary whether you're debugging your **Ona Vision** container or managing a high-traffic server.
 

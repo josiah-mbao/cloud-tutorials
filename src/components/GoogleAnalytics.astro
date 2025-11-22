@@ -1,0 +1,16 @@
+---
+const gaMeasurementId = import.meta.env.GA_MEASUREMENT_ID;
+---
+
+{gaMeasurementId && (
+  <>
+    <!-- Google Analytics -->
+    <script async src={`https://www.googletagmanager.com/gtag/js?id=${gaMeasurementId}`}></script>
+    <script define:vars={{ gaMeasurementId }}>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+      gtag('config', gaMeasurementId);
+    </script>
+  </>
+)}

@@ -3,7 +3,6 @@ title: Introduction to CI/CD - The Engine of DevOps
 description: An explanation of Continuous Integration (CI) and Continuous Delivery/Deployment (CD), and how they enable rapid, reliable software releases.
 ---
 
-# 1. Introduction to CI/CD: The Engine of DevOps 🔄
 
 We've learned to package our application into a portable unit using **Docker**. But how do we get that container from our laptop to the cloud automatically, reliably, and repeatedly?
 

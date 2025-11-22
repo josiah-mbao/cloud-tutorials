@@ -3,9 +3,7 @@ title: What is DevOps? The Mindset Behind Modern Software
 description: Breaking down the culture, principles, and practice of DevOps, and how it connects to real-world projects, from a GDSC lead's perspective.
 ---
 
-# 1. What is DevOps? The Mindset Behind Modern Software
 
-As a software engineering student, I spent a lot of time in the **"dev"** side of things—writing code, debugging locally, and maybe pushing something to GitHub. But what happens *after* you hit merge? How does that code reliably get to a user, stay secure, and handle thousands of concurrent requests?
 
 That's where **DevOps** steps in.
 

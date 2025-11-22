@@ -3,9 +3,7 @@ title: Cloud Computing Overview - From Zero to Scalable Infrastructure
 description: A practical look at Cloud Computing fundamentals, deployment models, and service types (IaaS, PaaS, SaaS), leveraging my experience as an Azure AZ-900 holder.
 ---
 
-# 2. Cloud Computing Overview: From Zero to Scalable Infrastructure
 
-If DevOps is the culture, then **Cloud Computing** is the stadium where the game is played. It's the essential foundation for nearly every modern tech solution, from simple web apps to complex MLOps systems like **Ona Vision**.
 
 I can attest that you don't need a huge budget or a sprawling data center to start building big—you just need a solid understanding of the cloud. (Fun fact: I was able to pass the **Microsoft Azure Fundamentals (AZ-900)** certification last year just by diving into the Microsoft Learn resources! It proves that with focus, you can master these concepts.)
 

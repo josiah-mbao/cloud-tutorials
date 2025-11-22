@@ -7,7 +7,9 @@ description: A hands-on tutorial for software engineers to understand and use Do
 
 In the world of DevOps, we often say: **"It works on my machine" is a failure state.**
 
-Containers, specifically using **Docker**, solve this problem. Docker allows us to package an application—including all its code, libraries, dependencies, and configuration—into a single, consistent unit called an **image**. This image can then run anywhere (your laptop, a cloud server, a Kubernetes cluster) exactly the same way.
+Containers, specifically using **Docker**, solve this problem. Docker allows you to package an application—including all its code, libraries, dependencies, and configuration—into a single, consistent unit called an **image**. This image can then run anywhere (your laptop, a cloud server, a Kubernetes cluster) exactly the same way.
+
+> 🍨 **Fun Analogy**: Growing up, I would frequently check the fridge hoping to find ice cream in those big plastic containers—only to be disappointed when they held leftover spaghetti instead! Just like those ice cream containers can hold any kind of leftovers, Docker containers can package **any kind of application**—be it a Python web service, a Go backend, or even a full ML model like my **Ona Vision** computer vision system.
 
 In this tutorial, **we will containerize a simple Python web application** to understand the core workflow: **Write a Dockerfile $\rightarrow$ Build an Image $\rightarrow$ Run a Container.**
 
@@ -81,7 +83,7 @@ touch Dockerfile
 ### 2.3. Add the Instructions
 
 Open `Dockerfile` and add these instructions:
-```Dockerfile
+```dockerfile
 # Dockerfile
 
 # 1. Base Image: We start from a base Python image (official, lightweight)
